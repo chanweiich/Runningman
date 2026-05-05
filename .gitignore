@@ -1,0 +1,16 @@
+# 忽略私密金鑰
+.env
+
+# 忽略 Python 自動產生的暫存檔
+__pycache__/
+*.pyc
+
+# 忽略虛擬環境資料夾
+.venv/
+venv/
+
+# 忽略本地資料庫（若不想上傳測試用的資料庫）
+running_history.db
+
+# 忽略 Mac 系統產生的隱藏檔
+.DS_Store
